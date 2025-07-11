@@ -8,14 +8,12 @@
   </head>
   <body>
     <div class="bg-white">
-      <header class="absolute inset-x-0 top-0 z-50">
+      <header>
         <nav
           class="flex items-center justify-between p-8 lg:px-8"
           aria-label="Global"
         >
-          
-          
-          <div class="hidden lg:flex lg:gap-x-12">
+          <div class="lg:flex lg:gap-x-12">
             <p href="#" class="underline decoration-blue-600 decoration-2 [text-underline-offset:8px]" text-sm/6 font-normal text-stone-900 "
               >Home</p
             >
@@ -26,34 +24,7 @@
               >Projects</a
             > </div>
            
-        </nav>
-        <!-- Mobile menu, show/hide based on menu open state. -->
-        <div class="lg:hidden" role="dialog" aria-modal="true">
-          <!-- Background backdrop, show/hide based on slide-over state. -->
-          <div class="fixed inset-0 z-50"></div>
-          <div
-            class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
-          >
-            
-            <div class="mt-6 flow-root">
-              <div class="-my-6 divide-y divide-gray-500/10">
-                <div class="space-y-2 py-6">
-                  <a
-                    href="#"
-                    class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                    >About</a
-                  >
-                  <a
-                    href="#"
-                    class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                    >Projects</a
-                  >
-                </div>
-               
-              </div>
-            </div>
-          </div>
-        </div>
+        </nav>        
       </header>
 
       <div class="relative isolate px-6 pt-14 lg:px-8">
@@ -70,15 +41,13 @@
         </div>
         <div class="mx-auto  sm:py-16 lg:py-24">
           
-          <div class="text-center">
-            <h1
-              class="text-sm font-semibold tracking-tight text-left
-              text-gray-900 sm:text-7xl"
-            >
+          <div>
+            <h1 class="text-6xl font-medium tracking-tight text-left
+              text-gray-900">
               I'm Tomas Ramirez. A product designer focused on end-to-end product experiences.
             </h1>
             <p
-              class="mt-8 text-left text-gray-500 text-xl"
+              class="mt-8 text-left text-gray-500 text-[16px]"
             >
               Realtor's Resource Property | Previously @ NortonLifeLock(Gen Digital), New American Funding
             </p>
@@ -89,16 +58,11 @@
                 >Contact Me</a
               >
               <a href="#" class="text-sm/6 font-semibold text-gray-900 hover:text-blue-600"
-                >View Projects <span aria-hidden="true">→</span></a
-              >
+                >View Projects <span aria-hidden="true">→</span></a>
             </div>
           </div>
         </div>
-        <div
-          class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-4xl sm:top-[calc(100%-1.6rem)]"
-          aria-hidden="true"
-        >
-      </div>
+       
     </div>
   </body>
 </html>
