@@ -11,9 +11,5 @@
     "plugins": [
       "prettier-plugin-tailwindcss"
     ]
-  },
-  "scripts": {
-    "build:css": "@tailwindcss/cli -i ./assets/input.css -o ./assets/output.css",
-    "watch:css": "@tailwindcss/cli -i ./assets/input.css -o ./assets/output.css --watch"
   }
 }
