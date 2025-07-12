@@ -404,6 +404,11 @@
       padding-block: calc(var(--spacing) * 16);
     }
   }
+  .lg\:z-10 {
+    @media (width >= 64rem) {
+      z-index: 10;
+    }
+  }
   .lg\:flex {
     @media (width >= 64rem) {
       display: flex;
