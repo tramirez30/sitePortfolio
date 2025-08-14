@@ -1,0 +1,24 @@
+{
+  "name": "portfoliosite",
+  "version": "1.0.0",
+  "description": "A simple one-page personal portfolio website built using [Bulma CSS](https://bulma.io/) for styling. This site highlights three featured projects, introduces the author, and includes a call-to-action footer with contact information. It also includes a secondary \"About\" page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tramirez30/sitePortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tramirez30/sitePortfolio/issues"
+  },
+  "homepage": "https://github.com/tramirez30/sitePortfolio#readme",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14"
+  }
+}
