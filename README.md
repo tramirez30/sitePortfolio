@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-A simple one-page personal portfolio website built using [Bulma CSS](https://bulma.io/) for styling. This site highlights three featured projects, introduces the author, and includes a call-to-action footer with contact information. It also includes a secondary "About" page.
+A simple one-page personal portfolio website built using [Tailwind CSS](https://tailwindcss.com/) for styling. This site highlights three featured projects, introduces the author, and includes a call-to-action footer with contact information. It also includes a secondary "About" page.
 
 ## ✨ Features
 
@@ -10,7 +10,7 @@ A simple one-page personal portfolio website built using [Bulma CSS](https://bul
 - Three featured project sections
 - Contact call-to-action footer
 - Secondary About page
-- Built with Bulma CSS framework
+- Built with Tailwind CSS framework
 
 ## 🗂️ Project Structure
 
