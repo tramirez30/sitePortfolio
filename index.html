@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Portfolio</title>
   </head>
   <body>
@@ -85,8 +86,15 @@
           <a
             href="#work"
             class="px-3.5 py-2.5 text-sm/6 font-semibold text-gray-900 hover:text-blue-600"
+            data-scroll
             >View Projects <span aria-hidden="true">→</span></a
           >
+        </div>
+        <!-- Gradient Animation -->
+        <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+          <div
+            class="gradient-ball absolute h-[500px] w-[500px] rounded-full opacity-40 blur-3xl"
+          ></div>
         </div>
       </div>
 
@@ -241,25 +249,5 @@
       </footer>
     </main>
   </body>
+  <script src="js/main.js"></script>
 </html>
-
-<!-- Tags -->
-<!-- 
-              <div class="flex w-full flex-row gap-2">
-                <span
-                  class="mt-8 flex h-8 w-16 items-center justify-center rounded-md border-2 border-gray-100 p-2 text-sm font-medium text-black text-slate-500"
-                >
-                  Mobile</span
-                >
-                <span
-                  class="mt-8 flex h-8 w-16 items-center justify-center rounded-md border-2 border-gray-100 p-2 text-sm font-medium text-black text-slate-500"
-                >
-                  CMA</span
-                >
-                <span
-                  class="mt-8 flex h-8 w-32 items-center justify-center rounded-md border-2 border-gray-100 p-2 text-sm font-medium text-black text-slate-500"
-                >
-                  Product Design</span
-                >
-              </div> -->
-<!-- Tags -->
