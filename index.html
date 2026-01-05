@@ -17,13 +17,15 @@
   <body>
     <header>
       <nav class="fixed left-0 top-0 w-full" aria-label="Global">
-        <div class="absolute w-full bg-white shadow-sm">
+        <div
+          class="absolute min-h-[40vh] w-full bg-slate-950 shadow-sm md:static md:min-h-fit md:bg-white"
+        >
           <ul
-            class="flex flex-col items-center justify-start gap-16 p-8 md:flex-row"
+            class="flex flex-col content-center items-center gap-12 p-8 md:flex-row md:gap-16"
           >
             <li>
               <a
-                class="text-sm/6 font-normal text-stone-900 underline decoration-blue-600 decoration-2 [text-underline-offset:8px]"
+                class="text-sm/6 font-normal text-white underline decoration-blue-600 decoration-2 [text-underline-offset:8px] md:text-stone-900"
               >
                 Home
               </a>
@@ -31,7 +33,7 @@
             <li>
               <a
                 href="#"
-                class="text-sm/6 font-medium text-stone-900 hover:text-blue-600"
+                class="text-sm/6 font-medium text-white hover:text-blue-600 md:text-stone-900"
                 >About</a
               >
             </li>
@@ -40,7 +42,7 @@
                 href="https://drive.google.com/file/d/11c012-7WtsM8uZETJthAB327vek69rOf/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-sm/6 font-medium text-stone-900 hover:text-blue-600"
+                class="text-sm/6 font-medium text-white hover:text-blue-600 md:text-stone-900"
                 >Resume</a
               >
             </li>
@@ -232,7 +234,7 @@
       >
         <div class="my-8 flex flex-row items-center justify-start gap-1">
           <i class="fa-regular fa-copyright text-[9px] text-slate-500"></i>
-          <p class="text-[12px] text-slate-500">Tomas Ramirez, 2025</p>
+          <p class="text-[12px] text-slate-500">Tomas Ramirez, 2026</p>
         </div>
         <div class="flex items-center gap-4">
           <a href="#" class="text-slate-500 hover:text-blue-600"
