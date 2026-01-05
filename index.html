@@ -16,12 +16,11 @@
   </head>
   <body>
     <header>
-      <nav
-        class="fixed left-0 top-0 w-full bg-white shadow-sm"
-        aria-label="Global"
-      >
-        <div class="">
-          <ul class="flex items-center justify-start gap-16 p-8">
+      <nav class="fixed left-0 top-0 w-full" aria-label="Global">
+        <div class="absolute w-full bg-white shadow-sm">
+          <ul
+            class="flex flex-col items-center justify-start gap-16 p-8 md:flex-row"
+          >
             <li>
               <a
                 class="text-sm/6 font-normal text-stone-900 underline decoration-blue-600 decoration-2 [text-underline-offset:8px]"
@@ -51,7 +50,7 @@
 
         <div>
           <button
-            class="rounded-md p-2 text-stone-900 hover:bg-stone-100 sm:hidden"
+            class="rounded-md p-2 text-stone-900 hover:bg-stone-100"
             aria-label="Open menu"
           >
             <i class="fa-solid fa-bars text-2xl hover:text-blue-600"></i>
