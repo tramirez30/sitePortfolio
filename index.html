@@ -15,36 +15,45 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="flex items-center justify-between p-4">
+    <header>
       <nav
-        class="z-100 fixed left-0 right-0 top-0 hidden bg-white shadow-sm lg:flex lg:items-center lg:gap-x-12 lg:p-8"
+        class="z-100 fixed left-0 top-0 w-full gap-12 bg-white shadow-sm"
         aria-label="Global"
       >
-        <a
-          class="text-sm/6 font-normal text-stone-900 underline decoration-blue-600 decoration-2 [text-underline-offset:8px]"
+        <ul class="flex items-center gap-12 p-8">
+          <li>
+            <a
+              class="text-sm/6 font-normal text-stone-900 underline decoration-blue-600 decoration-2 [text-underline-offset:8px]"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="text-sm/6 font-semibold text-stone-900 hover:text-blue-600"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/11c012-7WtsM8uZETJthAB327vek69rOf/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm/6 font-semibold text-stone-900 hover:text-blue-600"
+              >Resume</a
+            >
+          </li>
+        </ul>
+
+        <!-- Hamburger Menu -->
+        <button
+          class="rounded-md p-2 text-stone-900 hover:bg-stone-100 lg:hidden"
+          aria-label="Open menu"
         >
-          Home
-        </a>
-        <a
-          href="#"
-          class="text-sm/6 font-semibold text-stone-900 hover:text-blue-600"
-          >About</a
-        >
-        <a
-          href="https://drive.google.com/file/d/11c012-7WtsM8uZETJthAB327vek69rOf/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-sm/6 font-semibold text-stone-900 hover:text-blue-600"
-          >Resume</a
-        >
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </button>
       </nav>
-      <!-- Hamburger Menu -->
-      <button
-        class="rounded-md p-2 text-stone-900 hover:bg-stone-100 lg:hidden"
-        aria-label="Open menu"
-      >
-        <i class="fa-solid fa-bars text-2xl"></i>
-      </button>
     </header>
 
     <!-- Hero Content     -->
