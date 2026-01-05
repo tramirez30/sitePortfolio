@@ -1,0 +1,13 @@
+/* TailWind Animation */
+
+.menu-open .top {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menu-open .middle {
+  opacity: 0;
+}
+
+.menu-open .bottom {
+  transform: translateY(-7px) rotate(-45deg);
+}
