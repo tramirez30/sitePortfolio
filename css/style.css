@@ -1,7 +1,7 @@
 /* TailWind Animation */
 
 .menu-open .top {
-  transform: translateY(7px) rotate(45deg);
+  transform: translateY(5px) rotate(45deg);
 }
 
 .menu-open .middle {
@@ -9,5 +9,10 @@
 }
 
 .menu-open .bottom {
-  transform: translateY(-7px) rotate(-45deg);
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+/* Icon updates font color */
+.menu-open span {
+  background-color: white;
 }
