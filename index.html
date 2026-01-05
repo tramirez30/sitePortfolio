@@ -17,10 +17,10 @@
   <body>
     <header>
       <nav
-        class="z-100 fixed left-0 top-0 w-full bg-white shadow-sm"
+        class="fixed left-0 top-0 w-full bg-white shadow-sm"
         aria-label="Global"
       >
-        <ul class="flex items-center gap-12 p-8">
+        <ul class="flex w-full flex-row justify-start gap-12 p-8">
           <li>
             <a
               class="text-sm/6 font-normal text-stone-900 underline decoration-blue-600 decoration-2 [text-underline-offset:8px]"
@@ -44,25 +44,26 @@
               >Resume</a
             >
           </li>
+          <li>
+            <!-- Hamburger Menu -->
+            <button
+              class="rounded-md p-2 text-stone-900 hover:bg-stone-100 sm:hidden"
+              aria-label="Open menu"
+            >
+              <i class="fa-solid fa-bars text-2xl hover:text-blue-600"></i>
+            </button>
+          </li>
         </ul>
-
-        <!-- Hamburger Menu -->
-        <button
-          class="rounded-md p-2 text-stone-900 hover:bg-stone-100 lg:hidden"
-          aria-label="Open menu"
-        >
-          <i class="fa-solid fa-bars text-2xl"></i>
-        </button>
       </nav>
     </header>
 
     <!-- Hero Content     -->
     <main class="h-full">
-      <div class="my-8 flex flex-col px-8 md:my-48">
+      <div class="mb-24 flex flex-col px-8 pt-48">
         <h1
           class="md:leading-20 text-left text-4xl font-medium tracking-tight text-gray-900 md:text-6xl"
         >
-          I'm Tomas Ramirez. A product designer focused on end-to-end product
+          I'm Tomas Ramirez, a product designer focused on end-to-end product
           experiences.
         </h1>
         <p
