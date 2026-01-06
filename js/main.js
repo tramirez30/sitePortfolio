@@ -48,3 +48,15 @@ document.addEventListener("click", (e) => {
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeMenu();
 });
+
+// Set the current year in HTML footer
+
+function updateCurrentYear() {
+  const yearElement = document.getElementById("year");
+  if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+  }
+}
+
+// Call function updateCurrentYear()
+updateCurrentYear();
