@@ -14,7 +14,7 @@
     <title>A.I CMA</title>
   </head>
   <body>
-    <main class="mt-40 w-full px-8">
+    <main class="mt-32 w-full px-8 md:mt-40">
       <header>
         <nav class="fixed left-0 top-0 w-full" aria-label="Global">
           <div
@@ -75,9 +75,30 @@
 
       <!-- Content -->
 
-      <section class="mt-16 h-full">
-        <img src="ai_cma_images/hero.jpeg" alt="hero image" />
-        <div class="flex flex-col">
+      <section class="h-full">
+        <!-- Image + Overlay -->
+        <div
+          class="relative h-[250px] w-full overflow-hidden rounded-xl md:h-[400px]"
+        >
+          <img
+            src="ai_cma_images/hero.jpeg"
+            alt="hero image"
+            class="h-full w-full object-cover"
+          />
+
+          <div class="absolute inset-0 bg-black/70"></div>
+
+          <div
+            class="absolute inset-0 flex flex-col items-center justify-center p-4 text-white"
+          >
+            <h1 class="text-center text-3xl font-bold md:text-5xl">
+              A.I Compartive Market Analysis (CMA)
+            </h1>
+          </div>
+        </div>
+
+        <!-- Project Overview -->
+        <div class="flex flex-col pt-8 md:pt-16">
           <p class="text-xs font-medium uppercase text-slate-400">Context</p>
           <p class="md:text-5xl/14 pt-2 text-4xl font-bold text-slate-700">
             Cut Comparative Market Analysis (CMA) preparation time by 5 hours,
